@@ -655,33 +655,13 @@ footer .copyrigth{
     #close{
         display: initial;
         position: absolute;
-        top: 30px;
-        left: 30px;
+        top: -160px;
+        left: 20px;
         color: #222;
         font-size: 24px;
     }
     
 
-    /*single product*/
-#prodetails{
-    display: flex;
-    flex-direction: column;
-}
-
-#MainImg{
-    width: 100%;
-    margin-right: 0px;
-}
-#prodetails .single-pro-details h4 {
-    padding: 2px 0 10px 0;
-  }
-  #prodetails .single-pro-details h2 {
-    padding: 0px 0 0px 0;
-    font-size: 20px;
-  }
-#prodetails .single-pro-details{
-    width: 100%;
-}
 /*Contact page */
 #form-details{
    padding: 10px 10px;
