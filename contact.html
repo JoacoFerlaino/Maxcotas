@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxcotas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./style.css"  />
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src="./Images/LOGO.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><div class="shopping-bag"><a href="shop.html#cart"><img id="bag" src="./Images/bag.png" alt="cart">Cart<div class="total-items-in-cart">0</div>
+                </a></div></li>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="shop.html#cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+    
+    <section id="page-header" class="about-header">
+        <h2>#Escribinos!</h2>
+        <p>Nos encanta escuchar de vos, cualquier recomendación es bienvenida!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>Nuestros datos</span>
+            <h2>Local a la calle en Escobar</h2>
+            <li>
+                <i class="fa fa-map"></i>
+                <p>Estrada 1396, B1625 Belén de Escobar, Provincia de Buenos Aires</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>contacto@maxcotas.com</p>
+            </li>
+            <li>
+                <i class="far fa-clock"></i>
+                <p>Lunes a sabados de 9 de la mañana a 19 hs.</p>
+            </li>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d823.4876914141036!2d-58.80176945359583!3d-34.35173110598389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61bc1a4de34d%3A0x8b0731afc7559cd9!2sEstrada%201398-1300%2C%20B1625AEL%20Bel%C3%A9n%20de%20Escobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661024080378!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>DEJANOS TU MENSAJE</span>
+            <h2>Nos encanta escuchar de vos</h2>
+            <input type="text" placeholder="Tu nombre">
+            <input type="email" placeholder="E-mail">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+            <button class="normal">submit</button>
+        </form>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="#LOGO" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Escobar </p>
+            <p><strong>Telefono:</strong> +54 9 11 6266-6292 </p>
+            <p><strong>Horarios:</strong> lunes a sabado de 10 a 19</p>
+        </div>
+        <div class="follow">
+            <h4>Seguinos!</h4>
+            <div id="icon">
+                <a href="https://www.instagram.com/maxcotasbalanceados/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://wa.me/541162666292" target="_blank" class="fab  fa-whatsapp"></a>
+                <a href="#" target="_blank" class="fab  fa-facebook"></a>
+            </div>
+        </div>
+        <div class="copyrigth">
+            <p> © Copyright ecommerce proyect. NUCBA 2022</p>
+        </div>
+    </footer>
+
+    <script src="menuHamburg.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
