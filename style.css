@@ -135,7 +135,7 @@ max-width: 30px;
 
 /*Home Page*/
  #hero{
-    background-image: url("./Images/Hero.png");
+    background-image: url("./Images/hero.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -164,6 +164,9 @@ max-width: 30px;
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+ }
+ #btn-hero{
+    text-decoration: none;
  }
 
  #feature{
