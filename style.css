@@ -401,7 +401,16 @@ footer .copyrigth{
     font-weight: 600;
 }
 
-
+.buttons button{
+    border: 2px solid #2c2c31;
+    padding: 5px 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;    
+}
+.buttons button.active{
+    background-color: #F2FF3A;
+}
 
 /*Contacto page */
 #contact-details{
