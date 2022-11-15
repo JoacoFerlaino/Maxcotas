@@ -2,36 +2,33 @@ const products = [
     {
         id: 0,
         name:"Green Dog",
-        price: 6900,
+        price: 0,
         desciption: "Green Dog, alimento 100% Vegetal!",
-        imgSrc: "./Images/GD.PNG",
+        imgSrc: "./Images/Green Dog Perros.png",
         Type: "Perros",
     },
     {
         id: 1,
         name:"ProPlan",
-        price: 7000,
         desciption: "Proplan un clasico en alimentos",
-        imgSrc: "./Images/Proplan.png",
+        imgSrc: "./Images/Pro Plan Perros.png",
         Type: "Perros",
     },
     {
         id: 2,
         name:"Royal Canin",
-        price: 12000,
         desciption: "Royal Canin, alimento de excelencia",
-        imgSrc: "./Images/Royal.png",
+        imgSrc: "./Images/Royal Canin Perros.png",
         Type: "Perros",
     },
     {
         id: 3,
         name:"Eukanuba",
-        price: 10000,
         desciption: "Eukanuba, un clasico en el mercado",
         imgSrc: "./Images/Eukanuba.webp",
         Type: "Perros",
     },
-        
+       
     {
         id: 4,
         name:"Agility",
@@ -59,9 +56,9 @@ const products = [
         imgSrc: "./Images/Cat Chow Gatos.png",
         Type: "Gatos",
     },
-
-
-
+ 
+ 
+ 
 {
         id: 8,
         name:"Cat Selection",
@@ -90,10 +87,10 @@ const products = [
         imgSrc: "./Images/Excellent Gatos.png",
         Type: "Gatos",
     },
-
-
-
-
+ 
+ 
+ 
+ 
 {
         id: 12,
         name:"Excellent",
@@ -110,7 +107,7 @@ const products = [
     },
 {
         id: 14,
-        name:"Gatti",
+        name:"Gatti Gatos",
         desciption: "contiene nutrientes de la carne, el pescado y el pollo, mezclados con cereales y vegetales, lo que hacen que esta novedosa combinación de sabores le recuerde a la comida de verdad.",
         imgSrc: "./Images/Gatti Gatos.png",
         Type: "Gatos",
@@ -122,7 +119,7 @@ const products = [
         imgSrc: "./Images/Green Dog Perros.png",
         Type: "Perros",
     },
-
+ 
 {
         id: 16,
         name:"Maintenance Criadores",
@@ -151,8 +148,8 @@ const products = [
         imgSrc: "./Images/Master y Upper Crock Gatos.png",
         Type: "Gatos",
     },
-
-
+ 
+ 
 {
         id: 20,
         name:"Nutribon",
@@ -181,8 +178,8 @@ const products = [
         imgSrc: "./Images/Old Prince Equilibrium Perros.png",
         Type: "Perros",
     },
-
-
+ 
+ 
 {
         id: 24,
         name:"Old Prince Cordero",
@@ -241,14 +238,14 @@ const products = [
     },
 {
         id: 32,
-        name:"Pro Plan Veterinary",
+        name:" Pro Plan Veterinary Diets Perros",
         desciption: "Los productos de VETERINARY DIETS fueron formulados por científicos, nutricionistas y veterinarios para ayudar a tu perro o gato con necesidades nutricionales especiales. ",
         imgSrc: "./Images/Pro Plan Veterinary Diets Perros.png",
         Type: "Perros",
     },
 {
         id: 33,
-        name:"Pro Plan Veterinary",
+        name:" Pro Plan Veterinary Diets Gatos",
         desciption: "Los productos de VETERINARY DIETS fueron formulados por científicos, nutricionistas y veterinarios para ayudar a tu perro o gato con necesidades nutricionales especiales. ",
         imgSrc: "./Images/Pro Plan Veterinary Diets Gatos.png",
         Type: "Gatos",
@@ -269,14 +266,14 @@ const products = [
     },
 {
         id: 36,
-        name:"Royal Canin Veterinary",
+        name:" Royal Canin Veterinary Diet Care Gatos",
         desciption: "Nutrición específica para satisfacer las necesidades terapéuticas de gatos.",
         imgSrc: "./Images/Royal Canin Veterinary Diet Care Gatos.png",
         Type: "Gatos",
     },
 {
         id: 37,
-        name:"Royal Canin Veterinary",
+        name:" Royal Canin Veterinary Diet Care Perros",
         desciption: "Nutrición específica para satisfacer las necesidades terapéuticas de perros.",
         imgSrc: "./Images/Royal Canin Veterinary Diet Care Perros.png",
         Type: "Perros",
@@ -295,7 +292,7 @@ const products = [
         imgSrc: "./Images/Royal Performance Perros.png",
         Type: "Perros",
     },
-
+ 
 {
         id: 40,
         name:"Vital Balance",
@@ -324,8 +321,8 @@ const products = [
         imgSrc: "./Images/Vital Complete Perros.png",
         Type: "Perros",
     },
-
-
+ 
+ 
 {
         id: 44,
         name:"Whiskas",
@@ -335,49 +332,184 @@ const products = [
     },
 {
         id: 45,
-        name:"Pouchs",
+        name:"Pouchs gatos",
         desciption: "Alimentos humedos.",
         imgSrc: "./Images/Pouchs Gatos.png",
         Type: "Gatos",
     },
 {
         id: 46,
-        name:"Pouchs",
+        name:"Pouchs perros",
         desciption: "Alimentos humedos.",
         imgSrc: "./Images/Pouchs Perros.png",
         Type: "Perros",
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{
+        id: 47,
+        name:"Pastillas NexGard",
+        desciption: "Un delicioso bocado equivale a 30 días de segura protección. Con NexGard, las pulgas y garrapatas ya no son un problema.",
+        imgSrc: "./Images/Pastillas NexGard.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 48,
+        name:"Pastillas Power",
+        desciption: "Comprimido pulguicida saborizado de rápida acción. Previene y elimina las pulgas de tu mascota y tiene acción repelente por hasta 30 días.",
+        imgSrc: "./Images/Pastillas Power.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 49,
+        name:"Perfos Multidosis",
+        desciption: "Antiparasitario externo indicado para el control y tratamiento de las infestaciones causadas por pulgas y garrapatas. Actúa como repelente de moscas y mosquitos. Se indica como tratamiento complementario de la Dermatitis Alérgica por pulgas.",
+        imgSrc: "./Images/Perfos Multidosis.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 50,
+        name:"Pipetas Power",
+        desciption: "PIPETA POWER ULTRA Pulguicida, garrapaticida, piojicida y acaricida. Repelente de garrapatas, mosca de la punta de la oreja, moscas, mosquitos y flebótomos.",
+        imgSrc: "./Images/Pipetas Power.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 51,
+        name:"Pipetas Hectopar",
+        desciption: "Antiparasitario externo pipetas para la prevención y tratamiento de las pulgas, garrapatas, moscas y mosquito en la especie canina 30 días de protección.",
+        imgSrc: "./Images/Pipetas Hectopar.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 52,
+        name:"Collares antipulgas",
+        desciption: "Collares con duración de entre 4 y 6 meses.",
+        imgSrc: "./Images/Collares antipulgas.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 53,
+        name:"Etchol5",
+        desciption: "Antiparasitario externo de acción prolongada para perros y ambientes frecuentados por perros y gatos.",
+        imgSrc: "./Images/Etchol.png",
+        Type: "Tratamientos antipulgas",
+    },
+{
+        id: 54,
+        name:"Collares",
+        desciption: "Gran variedad para perros y gatos, hace tu consulta sobre los modelos disponibles.",
+        imgSrc: "./Images/Collares.png",
+        Type: "Collares y correas",
+    },
+{
+        id: 55,
+        name:"Correas",
+        desciption: "Gran variedad para perros y gatos, hace tu consulta sobre los modelos disponibles.",
+        imgSrc: "./Images/Correas.png",
+        Type: "Collares y correas",
+    },
+{
+        id: 56,
+        name:"Correas de ahorque",
+        desciption: "Gran variedad para perros, hace tu consulta sobre los modelos disponibles.",
+        imgSrc: "./Images/Correas de ahorque.png",
+        Type: "Collares y correas",
+    },
+{
+        id: 57,
+        name:"Petales",
+        desciption: "Gran variedad para perros y gatos, hace tu consulta sobre los modelos disponibles.",
+        imgSrc: "./Images/Pretales.png",
+        Type: "Collares y correas",
+    },
+{
+        id: 58,
+        name:"Antiparacitarios",
+        desciption: "Antiparacitarios en gotas y pastillas.",
+        imgSrc: "./Images/Antiparacitarios.png",
+        Type: "Accesorios",
+    },
+{
+        id: 59,
+        name:"Fluidos desinfectantes",
+        desciption: "desinfectantes y sanitizantes, son como el complemento ideal para los tratamientos de fumigación y control de plagas.",
+        imgSrc: "./Images/Fluidos desinfectantes.png",
+        Type: "Accesorios",
+    },
+{
+        id: 60,
+        name:"Golosinas",
+        desciption: "Chocolates, bocaditos saborizados y cuidado oral.",
+        imgSrc: "./Images/Golosinas.png",
+        Type: "Accesorios",
+    },
+{
+        id: 61,
+        name:"Comederos",
+        desciption: "Comederos metálicos y plásticos.",
+        imgSrc: "./Images/Comederos.png",
+        Type: "Accesorios",
+    },
+{
+        id: 61,
+        name:"Curabichera",
+        desciption: "Tratamiento preventivo y curativo de bicheras en todo tipo de heridas.",
+        imgSrc: "./Images/Curabicheras.png",
+        Type: "Accesorios",
+    },
+{
+        id: 62,
+        name:"Camas y Moises",
+        desciption: "tamaños, modelos y colores sujetos a disponibilidad, hace tu consulta.",
+        imgSrc: "./Images/Colchonetas varias.png",
+        Type: "Accesorios",
+    },
+{
+        id: 62,
+        name:"Cuchas",
+        desciption: "tamaños, modelos y colores sujetos a disponibilidad, hace tu consulta.",
+        imgSrc: "./Images/Cuchas.png",
+        Type: "Accesorios",
+    },
+{
+        id: 63,
+        name:"Piedras sanitarias",
+        desciption: "Bolsas de 2kgs,4kgs, 10kgs y 3,6 litros hace tu consulta.",
+        imgSrc: "./Images/Piedras sanitarias.png",
+        Type: "Accesorios",
+    },
+{
+        id: 64,
+        name:"Medallas para perros y gatos",
+        desciption: "ponele vos la inscripción que quieras.",
+        imgSrc: "./Images/Medallas.png",
+        Type: "Accesorios",
+    },
+{
+        id: 65,
+        name:"Huesos y nudos",
+        desciption: "artículos de cuero, plástico y tela.",
+        imgSrc: "./Images/Huesos y nudos.png",
+        Type: "Accesorios",
+    },
+{
+        id: 66,
+        name:"Shampoo y Loción",
+        desciption: "consulta por otras variedades.",
+        imgSrc: "./Images/Locion y shampoo.png",
+        Type: "Accesorios",
+    },
+{
+        id: 67,
+        name:"Cepillos",
+        desciption: "consulta por otras variedades.",
+        imgSrc: "./Images/Cepillos.png",
+        Type: "Accesorios",
+    },
+{
+        id: 68,
+        name:"Venenos",
+        desciption: "hormigas, caracoles y babosas, ratas, etc.",
+        imgSrc: "./Images/Venenos.png",
+        Type: "Accesorios",
+    },
 ]
